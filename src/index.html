@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>FruitBoom</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__first">
+            <div class="container">
+                <div class="header__first-wrapper">
+                    <button class="button">Call me back</button>
+                    <div class="header__contacts">
+                        <div class="header__contacts-item">
+                            <img src="icons/contacts/icon-block1.png" alt="Mobile icon" />
+                            <a href="tel:+380548183555" class="header__contacts-link">054-818-3555</a>
+                        </div>
+                        <div class="header__contacts-item">
+                            <img src="icons/contacts/icon-block2.png" alt="Email Icon" />
+                            <a href="email:service@10pri.biz" class="header__contacts-link">service@10pri.biz</a>
+                        </div>
+                        <div class="header__contacts-item">
+                            <img src="icons/contacts/icon-block3.png" alt="WhatsApp Icon" />
+                            <a href="#" class="header__contacts-link">WhatsApp</a>
+                        </div>
+                        <div class="header__contacts-item">
+                            <img src="icons/contacts/icon-block4.png" alt="Delivery Icon" />
+                            <a href="#" class="header__contacts-link">Delivery cost by region</a>
+                        </div>
+                    </div>
+                    <div class="header__translate">
+                        <input type="checkbox" id="switch" />
+                        <label for="switch" data-on="ENG" data-off="UA" class="header__translate-toggle"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__second" id="header__second">
+            <div class="container">
+                <div class="header__second-wrapper">
+                    <a href="#"><img src="img/logo.png" alt="logo" /></a>
+                    <div class="header__second-navSearchBtn">
+                        <ul class="header__second-nav">
+                            <li>
+                                <a href="#" class="header__second-navlinks">Catalog</a>
+                                <img src="icons/icon-arrow.png" alt="arrow" />
+                            </li>
+                            <li>
+                                <a href="#" class="header__second-navlinks">Promotions</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__second-navlinks">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__second-navlinks">Blog</a>
+                            </li>
+                        </ul>
+
+                        <div class="header__second-searchBox">
+                            <input class="header__second-searchInput" type="text" placeholder="find your gift..." />
+                            <div class="header__second-searchBtn"></div>
+                            <div class="header__second-cancelBtn">
+                                <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+
+                        <button class="button button__basket">
+                            $ 55 414
+                            <img src="icons/number.png" alt="number" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <img src="img/basket-min.png" alt="basket" class="promo__basket" />
+                <div class="promo__text">
+                    <h1 class="promo__header">
+                        The sweetest gift, the most exciting thank you
+                    </h1>
+                    <button class="button button__promo">Find best Gift</button>
+                </div>
+            </div>
+            <div class="promo__panel">
+                <div class="promo__panel-border">
+                    <div class="promo__panel-item">
+                        <div class="promo__panel-circle">
+                            <img src="icons/benefits/icon-benefits-1.png" alt="passionfruit"
+                                class="promo__panel-icon" />
+                        </div>
+                        <div class="promo__panel-title">Premium fruit</div>
+                    </div>
+                    <div class="promo__panel-item">
+                        <div class="promo__panel-circle">
+                            <img src="icons/benefits/icon-benefits-2.png" alt="pineapple" class="promo__panel-icon" />
+                        </div>
+                        <div class="promo__panel-title">Strict review</div>
+                    </div>
+                    <div class="promo__panel-item">
+                        <div class="promo__panel-circle">
+                            <img src="icons/benefits/icon-benefits-3.png" alt="strawbery" class="promo__panel-icon" />
+                        </div>
+                        <div class="promo__panel-title">Best Service</div>
+                    </div>
+                    <div class="promo__panel-item">
+                        <div class="promo__panel-circle">
+                            <img src="icons/benefits/icon-benefits-4.png" alt="fig" class="promo__panel-icon" />
+                        </div>
+                        <div class="promo__panel-title">Made with love</div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/fruits/fruit-3.png" alt="blackberry" class="promo__blackberry" />
+            <img src="img/fruits/fruit-2.png" alt="blueberry""
+        class=" promo__blueberry">
+            <img src="img/fruits/fruit-4.png" alt="strawberry" class="promo__strawberry" />
+            <img src="img/fruits/fruit-1.png" alt="rawsberry""
+        class=" promo__rawsberry">
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="catalog__title">We recommend</h2>
+            <div class="catalog__content"></div>
+            <button class="button button__load">More sweet Gifts</button>
+        </div>
+        <img src="img/fruits/fruit-5.png" alt="rawsberry" class="catalog__doublefruit" />
+        <img src="img/fruits/fruit-6.png" alt="rawsberry" class="catalog__blueberry" />
+        <div class="catalog__footer"></div>
+    </section>
+
+    <script src="js/cards.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

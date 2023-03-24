@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Varela+Round&display=swap');
+
+@import 'base/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/catalog';
+@import 'blocks/media';
+

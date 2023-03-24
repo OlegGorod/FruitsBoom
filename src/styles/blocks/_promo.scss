@@ -1,0 +1,109 @@
+.promo {
+  min-height: 698px;
+  background: url(../../img/bg-min.png) center center/cover no-repeat;
+  padding-top: 176px;
+  height: calc(100vh - 250px);
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__basket {
+    position: absolute;
+    left: -86.87px;
+    bottom: -42px;
+    width: 866.74px;
+    height: 574.66px;
+  }
+
+  &__text {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    margin-left: 616px;
+    font-family: "Varela Round";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffffff;
+  }
+
+  &__panel {
+    background: #fff;
+    box-shadow: 0 15px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 4px;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: max-content;
+    left: 50%;
+
+    &-border {
+      padding: 19px 22px 20px 30px;
+      border: 2px solid $main-color;
+      border-radius: 25px;
+      display: flex;
+      justify-content: space-between;
+      gap: 26px;
+    }
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      border-right: 2px solid rgba(219, 30, 70, 0.1);
+      padding-right: 26px;
+
+      &:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+    }
+
+    &-circle {
+      background: linear-gradient(236.89deg, #d8144f 21.1%, #ff7a00 82.48%);
+      opacity: 0.8;
+      border-radius: 28px;
+    }
+
+    &-title {
+      font-family: "Rubik";
+      font-weight: 500;
+      font-size: 19px;
+      color: #70af00;
+    }
+  }
+
+  &__blackberry {
+    position: absolute;
+    top: 0px;
+    left: -78px;
+  }
+
+  &__blueberry {
+    position: absolute;
+    top: 0px;
+    right: -40px;
+  }
+
+  &__strawberry {
+    position: absolute;
+    left: 685px;
+    bottom: 40px;
+  }
+
+  &__rawsberry {
+    position: absolute;
+    bottom: -120px;
+    right: -90px;
+    width: 244px;
+    height: 230px;
+  }
+}
