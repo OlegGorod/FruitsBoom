@@ -174,7 +174,7 @@
         }
 
         .header__second-searchBtn {
-          background: url(../../icons/Search.png) center no-repeat;
+          background: url(../icons/Search.png) center no-repeat;
           height: 50px;
           width: 50px;
           color: #fff;
@@ -212,7 +212,7 @@
     }
 
     &-searchBtn {
-      background: #fff url(../../icons/icon-search.png) center no-repeat;
+      background: #fff url(../icons/icon-search.png) center no-repeat;
       height: 60px;
       width: 60px;
       border: 1px solid $main-color;
@@ -227,7 +227,7 @@
       z-index: 2;
 
       &:hover {
-        background: $main-color url(../../icons/Search.png) no-repeat center;
+        background: $main-color url(../icons/Search.png) no-repeat center;
       }
     }
 
